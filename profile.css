@@ -2,8 +2,7 @@ body {
 margin: auto;
 font-family: cursive;
 font-size: 20px;
-background-color: blue;
-
+background-color: pink;
 }
 
 
@@ -12,7 +11,9 @@ margin: auto;
 }
 
 .images {
-border: 3px solid black;
+border-left: 5px solid black;
+border-right: 5px solid black;
+border-top: 5px solid black;
 margin: auto; 
 width: 250px;
 height: auto;
@@ -28,6 +29,9 @@ margin: auto;
 text-decoration: underline;
 background-color: lightblue;
 width: 720px;
+border-top: 5px solid black;
+border-left: 5px solid black;
+border-right: 5px solid black;
 }
 
 
@@ -38,7 +42,8 @@ background-color: lightblue;
 position: relative;
 padding: 4px 10px 10px 10px;
 display: block;
-border:
+border-right: 5px solid black;
+border-left: 5px solid black;
 }
 
 
@@ -64,35 +69,35 @@ text-decoration: underline;
 
 ----------------------------------------------
 
-body.kirbo {
+.kirbo1 {
+background-color: forestgreen;
+}
+
+.meta {
+background-color: red;
+}
+
+.king {
+background-color: yellow;
+}
+
+.dee {
+background-color: purple;
+}
+
+.steve {
+background-color: #a86232;
+}
+
+.alex {
 
 }
 
-body.meta {
-
+.creeper {
+background-color: lightgreen;
 }
 
-body.king {
-
-}
-
-body.dee {
-
-}
-
-body.steve {
-
-}
-
-body.alex {
-
-}
-
-body.creeper {
-
-}
-
-body.chief {
-
+.chief {
+background-color: forestgreen;
 }
 
